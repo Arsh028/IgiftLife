@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="400sp"
+            android:background="@drawable/organ2"
+            android:layout_marginBottom="5sp"
+            android:layout_marginStart="7sp"
+            android:layout_marginEnd="7sp"
+            android:layout_marginTop="5sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#08c29d"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="Organ donation is the process of donating organs or biological tissues to a living recipient, who is in need of a transplant. The donor may be alive or deceased. This page will provide you with all the basic information about organ donation."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#9a1dcc"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:text="What are the types of Organ Transplant Donations?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#08c29d"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="There are two different kinds of transplant donations:- \n
+
+1) Living Donor Transplant – This occurs when a living person decides to donate his or her organ(s) to someone in need of a transplant. Living donors are usually family members or close friends of the person who requires a transplant. They must meet certain medical criteria and undergo comprehensive medical testing, as required by the particular circumstance, before being accepted as suitable donors. \n
+2) Deceased Donor Transplant – This is when organs from a brain-dead individual are transplanted into the body of a living recipient. The deceased individual in this scenario can only be a victim of brain death. This kind of transplant initially requires the recipient to wait on a list until a suitable organ is available based on the recipient’s medical profile."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#9a1dcc"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:text="Which organs can be Donated?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#08c29d"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="Different organs, such as heart, liver, kidneys, and tissues, such as corneas and bone marrow, can now be successfully transplanted into patients, who can expect to survive for years or even decades. The different organs that can be transplanted depend on the type of organ transplant i.e. whether the donor is alive or deceased. \n
+
+\n On one hand, living donors may donate a very limited number of organs and biological tissue. This list usually consists of one kidney (because one kidney is capable of performing bodily functions), a part of the pancreas (because half of the pancreas is adequate to sustain pancreatic functions) and a part of the liver (because the few segments that can be donated will regenerate after a period of time). \n
+
+\n On the other hand, transplants with deceased donors (who are brain dead) can be of the heart, lungs, kidneys, liver, pancreas, as well as tissues, like the cornea and bone marrow."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#9a1dcc"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:text="How does the process of Donation Work?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#08c29d"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="The donor undergoes the medical tests and evaluations to check his or her medical compatibility with the recipient. \n
+\t The donor’s medical compatibility is confirmed by a doctor, only after which a transplant may take place. \n
+\t The donor’s organs are surgically retrieved and stored in special chemical solutions until transplantation is to occur. \n
+\t The donor’s body is surgically closed. \n
+\t The donor may have to stay under medical care for a few days after organ retrieval has occurred. \n
+\t Living donors, however, may only donate a limited list of organs or tissue. ORGAN India aims to increase awareness of and facilitate deceased donations because many more organs can be harvested from a brain-dead body. \n
+
+DECEASED DONATIONS:- \n
+
+\t 1) The donor, who is a victim of a fatal injury to the head, is declared brain dead by a board of medical experts.\n
+\t 2) Consent from the donor’s family is obtained before the process of organ procurement is carried out. In the interim, the donor’s body is kept on a ventilator under special medical care, which ensures that his or her heart is still beating, and organs are kept alive.
+\t 3) A suitable recipient(s) for the organ(s) is identified off a waiting list and notified. \n
+\t 4) The donor’s organs are surgically retrieved and stored in special chemical solutions until transplantation is to occur. \n
+\t 5) The ventilator support is discontinued, and the donor’s body is surgically closed and released to the family."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#9a1dcc"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:text="How many organs can be kept alive in Deceased Donations?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#08c29d"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="A deceased donor is kept on a ventilator after he or she has been declared brain dead and until the organs can be harvested. A brain-dead person’s organs may stay alive for a varied time period; this period may range from a couple of days to a couple of weeks. However, once the organs have been removed from the body and stored in a chemical solution, they have limited life spans. The length of time donated organs and tissues can be kept outside the body, before transplantation is to occur, vary:- \n
+
+Heart: 4-6 hours \n
+Liver: 12-24 hours \n
+Kidney: 48-72 hours \n
+Heart-Lung: 4-6 hours \n
+Lung: 4-6 hours \n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#9a1dcc"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:text="Should Donors tell their Families about their wish to Donate Organs?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#08c29d"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="The most important thing that a donor must do, after he or she has pledged to become a donor, is to discuss the decision with his or her family. Although the decision is personal, organ and tissue donation cannot take place without the consent of the donor’s family. Donors are advised to help their families understand the motive behind their decisions. For instance, a donor may have been inspired by another donor’s or recipient’s story. This donor could narrate this story to his or her family so that it understands what the donor feels; this also makes the family more likely to consent with the donor’s decision."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#9a1dcc"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:text="What is the role of the Recipient of the Organ(s)?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#08c29d"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="It is important for recipients, who are in need of a transplant, to be aware of their roles in the entire procedure. Recipients are usually (in deceased donations) linked to donors as follows:- \n
+
+\t 1) The recipient is identified by a hospital as someone who is in need of an organ/tissue transplant. \n
+\t 2) The recipient’s medical profile and details are verified by the hospital in charge. \n
+\t 3) The recipient is placed on a waiting list of either a hospital or a network of hospitals, which ORGAN India is creating. ORGAN India is also developing a software that will link all hospitals in Delhi-NCR together in order to effectively connect donors and recipients. \n
+\t 4) A suitable donor is identified based on medical compatibility with the recipient.\n
+\t 5) The recipient is informed about the donor and that the transplant may take place. \n
+\t 6) Recipients should keep a few things in mind when awaiting a transplant. They should fully comply with the hospital’s requests for information; lack of coordination or hesitance to share information with the hospital may delay the identification of a donor. A positive attitude will also help recipients endure the time they spend on the waiting list. This time period may vary, from a few days to a few weeks to a few months."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#9a1dcc"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:text="Will Relatives of the Donor know whom the Organs are given to?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#08c29d"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="No, this information is kept confidential"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#9a1dcc"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:text="Will Organ Donation affect Funeral Rites or Burial Arrangements?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#08c29d"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="No, a loved one’s body is properly respected without any external sign of disfigurement, except a properly sutured surgical wound."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#9a1dcc"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:text="Are there any Monetary Benefits for Organ Donation?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#08c29d"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="No, there is no monetary compensation for the donor family and charge for receiver family. That’s why it’s called a Gift."/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

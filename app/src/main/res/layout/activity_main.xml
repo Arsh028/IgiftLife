@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/organbutton"
+            android:layout_width="382dp"
+            android:layout_height="103dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/trans"
+            />
+
+        <TextView
+            android:layout_width="102dp"
+            android:layout_height="104dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="352dp"
+            android:background="@drawable/organ" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="103dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="352dp"
+            android:text="\n    About Organ Donation"
+            android:textSize="24dp"
+            android:textColor="#3311ff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/pledgebutton"
+            android:layout_width="382dp"
+            android:layout_height="101dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="475dp"
+            android:background="@drawable/trans"
+            android:onClick="pledgebutton" />
+
+        <TextView
+            android:layout_width="102dp"
+            android:layout_height="104dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="475dp"
+            android:background="@drawable/pledge" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="103dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="475dp"
+            android:text="\n     Pledge to Save Lives"
+            android:textSize="24dp"
+            android:textColor="#3311ff"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/explorebutton"
+            android:layout_width="321dp"
+            android:layout_height="102dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="601dp"
+            android:background="@drawable/trans"
+            android:onClick="explore" />
+
+        <TextView
+            android:layout_width="102dp"
+            android:layout_height="104dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/web" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="103dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="600dp"
+            android:text="\n      Explore to Know"
+            android:textSize="24dp"
+            android:textColor="#3311ff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/chatbutton"
+            android:layout_width="321dp"
+            android:layout_height="102dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="601dp"
+            android:background="@drawable/trans"
+            android:onClick="chatbutton" />
+
+        <TextView
+            android:layout_width="102dp"
+            android:layout_height="104dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="725dp"
+            android:background="@drawable/chat" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="103dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="725dp"
+            android:text="\n       Chat with HOPE"
+            android:textSize="24dp"
+            android:textColor="#3311ff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/brainbutton"
+            android:layout_width="310dp"
+            android:layout_height="103dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="855dp"
+            android:background="@drawable/trans"
+            android:paddingBottom="50dp"
+            android:layout_marginBottom="35dp"
+            android:onClick="brainbutton" />
+
+        <TextView
+            android:layout_width="102dp"
+            android:layout_height="104dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="855dp"
+            android:paddingBottom="50dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/brain" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="103dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="855dp"
+            android:text="\n       Brain Death"
+            android:textSize="24dp"
+            android:textColor="#3311ff"
+            android:paddingBottom="50dp"
+            android:layout_marginBottom="35dp"
+            android:textStyle="bold" />
+
+
+        <com.smarteist.autoimageslider.SliderLayout
+            android:id="@+id/imageSlider"
+            android:layout_width="match_parent"
+            android:layout_height="322dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp" />
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:layout_width="wrap_content"
+            android:layout_height="138dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="189dp"
+            android:layout_marginTop="647dp"
+            app:fab_addButtonColorNormal="@color/pink"
+            app:fab_addButtonColorPressed="@color/pink_pressed"
+            app:fab_addButtonPlusIconColor="@color/white"
+            app:fab_labelStyle="@style/custom_Fab">
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_action1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="@color/white"
+                app:fab_colorPressed="@color/white_pressed"
+                app:fab_icon="@drawable/ic_question"
+                app:fab_size="mini"
+                app:fab_title="FAQ's" />
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_action2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="@color/white"
+                app:fab_colorPressed="@color/white_pressed"
+                app:fab_icon="@drawable/ic_web"
+                app:fab_size="mini"
+                app:fab_title="Website" />
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_action3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="@color/white"
+                app:fab_colorPressed="@color/white_pressed"
+                app:fab_icon="@drawable/ic_people"
+                app:fab_size="mini"
+                app:fab_title="Our Volunteers" />
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    </RelativeLayout>
+
+</ScrollView>
